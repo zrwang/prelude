@@ -65,6 +65,13 @@
 ;; install pyvenv package
 (prelude-require-package 'pyvenv)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; cpp config
+(setq c-default-style "linux"
+	c-basic-offset 4)
+(setq-default c-basic-offset 4
+	tab-width 4
+	indent-tabs-mode t)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; enable xclip for linking the kill-ring to X11 clipboard
 ;; Installation:
 ;;     M-x package-install RET xclip RET
